@@ -1,16 +1,21 @@
-import React from 'react';
+import React from 'react'
 // import LottieView from 'lottie-react-native';
 import {useEffect, useState, useRef } from 'react';
 import {createStackNavigator}from '@react-navigation/stack'
 // import { useLinkProps } from '@react-navigation/native';
+import splashScreen from '../../assets/splash.js'
 
-createStackNavigator =useState[['']]
 
-const Appcontainer = createAppContainer(AppWithNavigationState)
+const navContainer = createStackNavigator
+(
+    {
+        Home: Home,
+        screen:splashScreen
 
-// let Navigator {
-//     (useLinkProps);
-// }
+    }
+)
+
+
 
 const App = () => {
     return (
@@ -18,9 +23,21 @@ const App = () => {
     )
 
 }
-{/* <Appcontainer><Navigator></Navigator></Appcontainer> */}
+
+
+
+const styles = StyleSheet.create({
+    container: {
+        alignItems: 'center',
+        justifyContent,
+        
+    }
+})
 
 
 
 
 
+
+
+// <lottieview(required{source='../assets/hacker.json'})
