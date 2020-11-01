@@ -13,6 +13,7 @@ const navContainer = createStackNavigator
         screen:splashScreen
 
     }
+
 )
 
 
@@ -40,4 +41,3 @@ const styles = StyleSheet.create({
 
 
 
-// <lottieview(required{source='../assets/hacker.json'})
