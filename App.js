@@ -3,14 +3,15 @@ import React from 'react'
 import {useEffect, useState, useRef } from 'react';
 import {createStackNavigator}from '@react-navigation/stack'
 // import { useLinkProps } from '@react-navigation/native';
-import splashScreen from '../../assets/splash.js'
+import Splash from './src/screens/splash'
 
 
 const navContainer = createStackNavigator
+
 (
     {
-        Home: Home,
-        screen:splashScreen
+        // Home: Home,
+        screen:Splash
 
     }
 
@@ -20,7 +21,7 @@ const navContainer = createStackNavigator
 
 const App = () => {
     return (
-        <Appcontainer />
+    <navContainer/>
     )
 
 }

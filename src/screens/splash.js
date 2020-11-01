@@ -6,7 +6,7 @@ import {lottieview} from 'lottie-react-native'
 {
 // const Toggle = useState
 
-export const Splash = () => {
+const Splash = () => {
     return (
     <lottieview
     source={require('../assets/hacker.json')}
@@ -19,3 +19,4 @@ export const Splash = () => {
     }}
 />
     )}}
+    
